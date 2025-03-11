@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>山海云端短视频解析 | 100%免费无水印短视频解析下载工具</title>
+    <meta name="description" content="山海云端短视频解析是一款完全免费的多平台视频解析工具，支持抖音、快手、火山、西瓜、皮皮虾、秒拍、头条、微视、美拍、微博、小红书等平台视频一键无水印下载，永久免费且不限次数">
+    <meta name="keywords" content="山海云端,免费视频解析,抖音无水印,快手无水印,小红书无水印,短视频批量下载,视频提取工具,免费解析,视频去水印,高清视频下载">
+    <meta name="author" content="山海云端">
+    <meta name="robots" content="index, follow">
+    <meta name="google" content="notranslate">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="canonical" href="https://your-website-url.com">
+    
+    <!-- 添加网站图标 -->
+    <link rel="shortcut icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z' fill='%232563eb'/%3E%3C/svg%3E" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z' fill='%232563eb'/%3E%3C/svg%3E">
+    
+    <link rel="stylesheet" href="styles.css">
+    <!-- 引入更完整的字体图标库 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/all.min.css">
+    
+    <!-- 结构化数据 - JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "山海云端短视频解析",
+      "url": "https://your-website-url.com",
+      "description": "完全免费的短视频解析工具，支持抖音、快手、火山视频、西瓜视频、小红书等多平台视频无水印下载，不限次数",
+      "applicationCategory": "MultimediaApplication",
+      "operatingSystem": "All",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "CNY"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "{search_term_string}",
+        "query-input": "required name=search_term_string"
+      },
+      "keywords": "短视频解析,免费下载,抖音无水印,快手无水印,小红书无水印,视频提取工具"
+    }
+    </script>
+    
+    <!-- 额外的SEO元标签 -->
+    <meta property="og:title" content="山海云端短视频解析 | 100%免费无水印视频下载" />
+    <meta property="og:description" content="永久免费的短视频无水印解析工具，支持抖音、快手等多平台，不限次数且无广告干扰" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://your-website-url.com" />
+    <meta property="og:image" content="https://your-website-url.com/og-image.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="山海云端短视频解析 | 完全免费的视频下载工具" />
+    <meta name="twitter:description" content="一站式短视频解析下载，支持抖音/快手/小红书等全网平台，永久免费且高清无水印" />
+
+    <style>
+        /* SVG动态图标样式 */
+        .animated-logo {
+            width: 40px;
+            height: 40px;
+        }
+        
+        .animated-logo .outer-circle {
+            fill: none;
+            stroke: #2563eb;
+            stroke-width: 1.5;
+            stroke-dasharray: 75;
+            stroke-dashoffset: 0;
+            transform-origin: center;
+            animation: rotate 8s linear infinite, pulse 3s ease-in-out infinite;
+        }
+        
+        .animated-logo .inner-circle {
+            fill: rgba(37, 99, 235, 0.1);
+            transform-origin: center;
+            animation: pulse-fill 3s ease-in-out infinite;
+        }
+        
+        .animated-logo .play-triangle {
+            fill: #2563eb;
+            transform-origin: center;
+            animation: scale 3s ease-in-out infinite;
+        }
+        
+        .animated-logo .glow {
+            fill: rgba(37, 99, 235, 0.7);
+            filter: blur(2px);
+            transform-origin: center;
+            animation: glow 3s ease-in-out infinite;
+        }
+        
+        .animated-logo .rays {
+            stroke: #2563eb;
+            stroke-width: 0.5;
+            stroke-dasharray: 10;
+            stroke-dashoffset: 0;
+            opacity: 0.7;
+            transform-origin: center;
+            animation: dash 5s linear infinite;
+        }
+        
+        @keyframes rotate {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        @keyframes pulse {
+            0%, 100% { stroke-width: 1.5; }
+            50% { stroke-width: 2.5; }
+        }
+        
+        @keyframes pulse-fill {
+            0%, 100% { opacity: 0.6; }
+            50% { opacity: 1; }
+        }
+        
+        @keyframes scale {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+        }
+        
+        @keyframes glow {
+            0%, 100% { opacity: 0.3; }
+            50% { opacity: 0.7; }
+        }
+        
+        @keyframes dash {
+            to { stroke-dashoffset: 100; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo-container">
+                <svg class="animated-logo" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <!-- 发光效果 -->
+                    <circle class="glow" cx="50" cy="50" r="32"></circle>
+                    
+                    <!-- 外部圆环 -->
+                    <circle class="outer-circle" cx="50" cy="50" r="40"></circle>
+                    
+                    <!-- 内部圆形 -->
+                    <circle class="inner-circle" cx="50" cy="50" r="30"></circle>
+                    
+                    <!-- 光线效果 -->
+                    <g class="rays">
+                        <line x1="50" y1="15" x2="50" y2="5"></line>
+                        <line x1="50" y1="95" x2="50" y2="85"></line>
+                        <line x1="15" y1="50" x2="5" y2="50"></line>
+                        <line x1="95" y1="50" x2="85" y2="50"></line>
+                        <line x1="26" y1="26" x2="19" y2="19"></line>
+                        <line x1="74" y1="74" x2="81" y2="81"></line>
+                        <line x1="26" y1="74" x2="19" y2="81"></line>
+                        <line x1="74" y1="26" x2="81" y2="19"></line>
+                    </g>
+                    
+                    <!-- 播放三角形 -->
+                    <polygon class="play-triangle" points="42,35 42,65 68,50"></polygon>
+                </svg>
+                <h1 class="site-title">山海云端短视频解析</h1>
+            </div>
+            <nav class="main-nav" aria-label="主导航">
+                <ul>
+                    <li><a href="#" class="active"><i class="fas fa-home"></i> 首页</a></li>
+                    <li><a href="#supported"><i class="fas fa-layer-group"></i> 支持平台</a></li>
+                    <li><a href="#tutorial"><i class="fas fa-book-open"></i> 使用教程</a></li>
+                    <li><a href="#about"><i class="fas fa-info-circle"></i> 关于我们</a></li>
+                </ul>
+            </nav>
+            <button class="mobile-toggle" aria-label="菜单">
+                <i class="fas fa-bars"></i>
+            </button>
+        </header>
+
+        <main>
+            <section class="hero">
+                <div class="hero-content">
+                    <h2 class="hero-title"><span class="text-highlight">100%免费</span>短视频解析平台</h2>
+                    <p class="hero-desc">支持抖音、快手、小红书等全网平台视频免费无水印下载，永久免费不限次数</p>
+                    <p class="hero-badge" style="margin-top: -10px; margin-bottom: 15px; background: rgba(236, 72, 153, 0.1); color: #ec4899; display: inline-block; padding: 4px 10px; border-radius: 20px; font-size: 14px;"><i class="fas fa-certificate" style="margin-right: 5px;"></i>无需注册 · 不限次数 · 高清无水印</p>
+                    
+                    <div class="search-container">
+                        <div class="input-group">
+                            <i class="fas fa-link prefix-icon"></i>
+                            <input type="text" id="video-url" placeholder="请粘贴视频分享链接..." autofocus>
+                            <button id="clear-btn" class="clear-btn" aria-label="清空"><i class="fas fa-times"></i></button>
+                        </div>
+                        <button id="parse-btn" class="parse-btn">
+                            <span>免费解析</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                    
+                    <div class="tips">
+                        <p><i class="fas fa-info-circle"></i> 提示：复制视频APP中的分享链接，粘贴到上方输入框中</p>
+                    </div>
+                    
+                    <div class="trust-badges">
+                        <div class="badge">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>安全无毒</span>
+                        </div>
+                        <div class="badge">
+                            <i class="fas fa-bolt"></i>
+                            <span>快速解析</span>
+                        </div>
+                        <div class="badge">
+                            <i class="fas fa-lock"></i>
+                            <span>隐私保护</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="decoration-container">
+                    <svg class="hero-decoration" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="#4A89DC" d="M45.7,-76.3C58.9,-69.9,69.2,-56.3,76.4,-41.6C83.7,-26.9,87.9,-11.2,86.6,3.7C85.3,18.7,78.6,32.8,69.6,45.1C60.6,57.4,49.3,67.8,36.3,73.5C23.3,79.2,8.5,80.2,-5.4,77.9C-19.3,75.7,-32.3,70.2,-43.5,62C-54.8,53.8,-64.3,42.8,-70.4,30.1C-76.5,17.4,-79.3,3,-77.8,-10.8C-76.3,-24.6,-70.5,-37.9,-61.2,-48.1C-51.9,-58.4,-39.2,-65.7,-26.4,-71.5C-13.6,-77.3,-0.7,-81.5,13,-83.3C26.7,-85.1,52.3,-84.5,65.2,-76.6C78.1,-68.8,77.8,-53.6,74,-40.2C70.2,-26.8,62.8,-15.1,60.1,-4.4C57.4,6.4,59.5,16,56.5,23.7C53.5,31.4,45.6,37.3,38.1,44.7C30.6,52.1,23.6,61.1,14.3,64.9C5,68.7,-6.4,67.4,-18.6,65.9C-30.7,64.3,-43.5,62.5,-52.2,55.7C-60.9,48.9,-65.4,37.2,-69.4,25.2C-73.3,13.3,-76.7,1.2,-75.8,-10.9C-74.9,-22.9,-69.8,-35,-62,-44.9C-54.3,-54.8,-43.9,-62.5,-32.4,-69.1C-20.9,-75.8,-8.3,-81.4,4.8,-83.9C17.9,-86.3,36.8,-85.7,45.7,-76.3Z" transform="translate(100 100)" />
+                    </svg>
+                </div>
+            </section>
+
+            <section class="stats-section">
+                <div class="stats-container">
+                    <div class="stat-item">
+                        <i class="fas fa-check-circle"></i>
+                        <div class="stat-content">
+                            <div class="stat-number">10,000,000+</div>
+                            <div class="stat-title">成功解析</div>
+                        </div>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fas fa-users"></i>
+                        <div class="stat-content">
+                            <div class="stat-number">1,000,000+</div>
+                            <div class="stat-title">用户信任</div>
+                        </div>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fas fa-server"></i>
+                        <div class="stat-content">
+                            <div class="stat-number">99.9%</div>
+                            <div class="stat-title">服务可用率</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="result-section" id="result-section">
+                <div class="result-container">
+                    <div class="result-header">
+                        <h3><i class="fas fa-play-circle"></i> 解析结果</h3>
+                        <button id="close-result" class="close-btn"><i class="fas fa-times"></i></button>
+                    </div>
+                    <div class="loading-spinner" id="loading-spinner">
+                        <svg class="spinner" viewBox="0 0 50 50">
+                            <circle class="path" cx="25" cy="25" r="20" fill="none" stroke-width="5"></circle>
+                        </svg>
+                        <p>正在解析中...</p>
+                    </div>
+                    <div class="result-content" id="result-content">
+                        <div class="video-info">
+                            <div class="video-thumbnail">
+                                <img id="video-cover" src="" alt="视频封面">
+                            </div>
+                            <div class="video-details">
+                                <h4 id="video-title">视频标题将显示在这里</h4>
+                                <div class="action-buttons">
+                                    <a id="download-link" href="#" target="_blank" class="download-btn">
+                                        <i class="fas fa-download"></i>
+                                        <span>下载视频</span>
+                                    </a>
+                                    <button id="play-btn" class="play-btn">
+                                        <i class="fas fa-play"></i>
+                                        <span>播放视频</span>
+                                    </button>
+                                    <button id="copy-link" class="copy-btn">
+                                        <i class="fas fa-copy"></i>
+                                        <span>复制链接</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-player-container" id="video-player-container">
+                        <div class="video-player-header">
+                            <h4><i class="fas fa-film"></i> 视频预览</h4>
+                            <button id="close-player" class="close-btn"><i class="fas fa-times"></i></button>
+                        </div>
+                        <div class="video-wrapper">
+                            <video id="video-player" controls></video>
+                        </div>
+                    </div>
+                    <div class="error-message" id="error-message">
+                        <i class="fas fa-exclamation-triangle"></i>
+                        <p id="error-text">解析失败，请检查链接是否正确</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="features-section">
+                <h2 class="section-title"><i class="fas fa-star"></i> 为什么选择我们？</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h3>快速解析</h3>
+                        <p>采用高速解析引擎，毫秒级响应，瞬间获取视频信息</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3>安全可靠</h3>
+                        <p>全程无需登录注册，保护个人隐私，安全无后顾之忧</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-layer-group"></i>
+                        </div>
+                        <h3>多平台支持</h3>
+                        <p>支持抖音、快手、火山视频等多个主流短视频平台</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-tint-slash"></i>
+                        </div>
+                        <h3>无水印下载</h3>
+                        <p>智能提取原始视频资源，下载无水印高清视频</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="platforms-section" id="supported">
+                <h2 class="section-title"><i class="fas fa-mobile-alt"></i> 支持的平台</h2>
+                <div class="platforms-grid">
+                    <div class="platform-card">
+                        <i class="fab fa-tiktok platform-icon"></i>
+                        <span>抖音</span>
+                    </div>
+                    <div class="platform-card">
+                        <i class="fas fa-video platform-icon"></i>
+                        <span>快手</span>
+                    </div>
+                    <div class="platform-card">
+                        <i class="fas fa-play-circle platform-icon"></i>
+                        <span>西瓜视频</span>
+                    </div>
+                    <div class="platform-card">
+                        <i class="fas fa-fire platform-icon"></i>
+                        <span>火山视频</span>
+                    </div>
+                    <div class="platform-card">
+                        <i class="fas fa-film platform-icon"></i>
+                        <span>皮皮虾</span>
+                    </div>
+                    <div class="platform-card">
+                        <i class="fab fa-weixin platform-icon"></i>
+                        <span>腾讯微视</span>
+                    </div>
+                    <div class="platform-card">
+                        <i class="fas fa-video platform-icon"></i>
+                        <span>秒拍</span>
+                    </div>
+                    <div class="platform-card">
+                        <i class="fas fa-newspaper platform-icon"></i>
+                        <span>头条视频</span>
+                    </div>
+                    <div class="platform-card">
+                        <i class="fas fa-book platform-icon"></i>
+                        <span>小红书</span>
+                    </div>
+                    <div class="platform-card">
+                        <i class="fas fa-music platform-icon"></i>
+                        <span>网易云</span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="tutorial-section" id="tutorial">
+                <h2 class="section-title"><i class="fas fa-book-open"></i> 使用教程</h2>
+                <div class="steps-container">
+                    <div class="step-card">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h3>复制链接</h3>
+                            <p>在各短视频平台中找到想要解析的视频，点击分享按钮，复制视频链接</p>
+                            <div class="step-image">
+                                <i class="fas fa-copy tutorial-icon"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h3>粘贴链接</h3>
+                            <p>将复制的链接粘贴到本站上方输入框中</p>
+                            <div class="step-image">
+                                <i class="fas fa-paste tutorial-icon"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h3>解析下载</h3>
+                            <p>点击"解析视频"按钮，获取视频信息后点击下载按钮即可保存无水印视频</p>
+                            <div class="step-image">
+                                <i class="fas fa-download tutorial-icon"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="testimonials-section">
+                <h2 class="section-title"><i class="fas fa-comment-alt"></i> 用户评价</h2>
+                <div class="testimonials-container">
+                    <div class="testimonial-card">
+                        <div class="testimonial-avatar">
+                            <i class="fas fa-user-circle"></i>
+                        </div>
+                        <div class="testimonial-content">
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="testimonial-text">解析速度非常快，而且下载的视频没有水印，体验很好！推荐使用。</p>
+                            <p class="testimonial-author">— 李先生，自媒体创作者</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-avatar">
+                            <i class="fas fa-user-circle"></i>
+                        </div>
+                        <div class="testimonial-content">
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="testimonial-text">界面简洁明了，操作非常简单，对于非技术人员也很友好，太实用了！</p>
+                            <p class="testimonial-author">— 王小姐，市场营销</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="faq-section">
+                <div class="section-title-container centered">
+                    <span class="section-subtitle">解决疑问</span>
+                    <h2 class="section-title">常见问题解答</h2>
+                    <p class="section-description">我们整理了用户最常遇到的问题，希望能帮助您更好地使用我们的服务</p>
+                </div>
+                <div class="faq-container">
+                    <div class="faq-list">
+                        <div class="faq-item">
+                            <div class="faq-question" tabindex="0">
+                                如何获取视频分享链接？
+                                <span class="faq-toggle"></span>
+                            </div>
+                            <div class="faq-answer">
+                                <p>打开短视频APP，找到想要解析的视频，点击"分享"按钮，然后选择"复制链接"选项即可获取视频链接。对于不同平台，操作略有不同：</p>
+                                <ul>
+                                    <li>抖音：点击右侧"分享"图标，选择"复制链接"</li>
+                                    <li>快手：点击右下角"分享"按钮，选择"复制链接"</li>
+                                    <li>其他平台：一般都可在分享选项中找到"复制链接"功能</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="faq-item">
+                            <div class="faq-question" tabindex="0">
+                                为什么有些视频无法解析？
+                                <span class="faq-toggle"></span>
+                            </div>
+                            <div class="faq-answer">
+                                <p>视频无法解析可能有以下原因：</p>
+                                <ul>
+                                    <li>视频已被作者删除或设为私密</li>
+                                    <li>视频设置了权限保护或版权限制</li>
+                                    <li>平台更新了保护机制，我们的系统需要更新适配</li>
+                                    <li>网络连接不稳定或服务器暂时故障</li>
+                                </ul>
+                                <p>建议稍后再试或尝试解析其他视频。我们会持续更新系统以适应各平台的变化。</p>
+                            </div>
+                        </div>
+                        
+                        <div class="faq-item">
+                            <div class="faq-question" tabindex="0">
+                                下载的视频在哪里？
+                                <span class="faq-toggle"></span>
+                            </div>
+                            <div class="faq-answer">
+                                <p>视频会下载到您浏览器设置的默认下载位置。大多数浏览器默认将文件保存在"下载"文件夹中。您也可以：</p>
+                                <ul>
+                                    <li>在浏览器的下载历史中找到并打开文件位置</li>
+                                    <li>在浏览器设置中修改默认下载位置</li>
+                                    <li>下载前选择"另存为"来指定保存位置</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="faq-item">
+                            <div class="faq-question" tabindex="0">
+                                使用本工具是否违反平台规定？
+                                <span class="faq-toggle"></span>
+                            </div>
+                            <div class="faq-answer">
+                                <p>本工具仅用于个人学习和合理使用场景，例如：</p>
+                                <ul>
+                                    <li>保存自己创作的内容备份</li>
+                                    <li>用于教育和研究目的</li>
+                                    <li>非商业性的个人收藏</li>
+                                </ul>
+                                <p>请遵守相关平台的用户协议和版权法规，不要将下载的视频用于商业用途或未经授权的分发。尊重创作者的知识产权。</p>
+                            </div>
+                        </div>
+                        
+                        <div class="faq-item">
+                            <div class="faq-question" tabindex="0">
+                                解析后的视频质量如何？
+                                <span class="faq-toggle"></span>
+                            </div>
+                            <div class="faq-answer">
+                                <p>我们提供原始视频的最高可用质量版本。在大多数情况下，解析后的视频质量与原始视频相同，不会有质量损失。但在某些情况下，可能会受到以下因素影响：</p>
+                                <ul>
+                                    <li>原平台提供的视频本身的清晰度</li>
+                                    <li>平台对外部下载的限制</li>
+                                    <li>特殊编码格式的兼容性</li>
+                                </ul>
+                                <p>我们会尽力提供最佳质量的视频，并持续优化解析算法。</p>
+                            </div>
+                        </div>
+                        
+                        <div class="faq-item">
+                            <div class="faq-question" tabindex="0">
+                                遇到"CORS政策已阻止请求"错误怎么办？
+                                <span class="faq-toggle"></span>
+                            </div>
+                            <div class="faq-answer">
+                                <p>此错误通常与跨域资源共享(CORS)限制有关。您可以尝试以下解决方法：</p>
+                                <ul>
+                                    <li>刷新页面后重试</li>
+                                    <li>清除浏览器缓存和Cookie后再试</li>
+                                    <li>尝试使用其他浏览器（如Chrome、Firefox或Edge）</li>
+                                    <li>如果使用的是公共网络或代理，尝试切换到其他网络</li>
+                                    <li>确认您的视频链接格式正确，需是完整的分享链接</li>
+                                </ul>
+                                <p>我们的系统会自动尝试解决此问题。如果持续遇到此错误，请联系我们的客服支持。</p>
+                            </div>
+                        </div>
+                        
+                        <div class="faq-item">
+                            <div class="faq-question" tabindex="0">
+                                为什么视频无法播放或下载？
+                                <span class="faq-toggle"></span>
+                            </div>
+                            <div class="faq-answer">
+                                <p>视频无法正常播放或下载可能有以下原因：</p>
+                                <ul>
+                                    <li>浏览器安全策略限制了跨域视频资源的访问</li>
+                                    <li>视频源服务器设置了访问限制或防盗链</li>
+                                    <li>视频链接已失效或需要授权访问</li>
+                                    <li>视频格式与浏览器不兼容</li>
+                                </ul>
+                                <p>解决建议：</p>
+                                <ul>
+                                    <li>尝试使用"直接下载"功能而非在线播放</li>
+                                    <li>复制视频链接后使用其他下载工具</li>
+                                    <li>使用不同的浏览器尝试下载</li>
+                                    <li>如果一个视频无法播放，可以尝试解析其他视频</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="faq-item">
+                            <div class="faq-question" tabindex="0">
+                                为什么抖音视频显示"播放受限"？
+                                <span class="faq-toggle"></span>
+                            </div>
+                            <div class="faq-answer">
+                                <p>抖音、TikTok等平台采用了严格的防盗链措施，禁止在第三方网站直接播放他们的视频。这是出于版权保护和流量控制的考虑。</p>
+                                <p>当解析到这类平台的视频时，您会看到以下情况：</p>
+                                <ul>
+                                    <li>播放按钮会显示为"播放受限"</li>
+                                    <li>直接播放时会弹出提示，建议您使用下载功能</li>
+                                    <li>直接下载功能可能会将您重定向到原平台</li>
+                                </ul>
+                                <p>对于这类视频，推荐的使用方式是：</p>
+                                <ul>
+                                    <li>点击"复制链接"获取视频地址，在其他工具中使用</li>
+                                    <li>使用下载功能保存视频后在本地播放</li>
+                                    <li>对于重定向到原平台的情况，可以在视频页面上右键选择"视频另存为"</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="seo-content" class="features">
+                <div class="section-header">
+                    <h2 class="section-title">山海云端短视频解析 - 全网<span class="text-highlight">免费</span>视频下载工具</h2>
+                </div>
+                <div class="seo-rich-content" style="text-align: left; color: #666; line-height: 1.7; padding: 0 20px; margin-bottom: 40px;">
+                    <h3 style="font-size: 18px; margin-bottom: 10px; color: #444;">为什么选择山海云端短视频解析？</h3>
+                    <p><strong>完全免费：</strong>我们不收取任何费用，不设置任何付费功能，永久免费且不限制解析次数。</p>
+                    <p><strong>多平台支持：</strong>一站式解析抖音、快手、火山视频、西瓜视频、皮皮虾、秒拍、头条视频、腾讯微视、美图秀秀、美拍、微博、小红书等全网视频平台。</p>
+                    <p><strong>高清无水印：</strong>解析出的视频保持原画质，完全去除平台水印，下载即可分享使用。</p>
+                    <p><strong>简单易用：</strong>只需复制短视频链接，一键解析即可获得无水印视频，无需注册登录，操作简单高效。</p>
+                    <p><strong>多种下载选择：</strong>支持视频、封面图片、背景音乐等多种素材下载，满足不同创作需求。</p>
+                    
+                    <h3 style="font-size: 18px; margin: 20px 0 10px; color: #444;">山海云端短视频解析使用场景</h3>
+                    <div style="display: flex; flex-wrap: wrap; gap: 15px; margin-bottom: 20px;">
+                        <div style="flex: 1; min-width: 200px;">
+                            <h4 style="font-size: 16px; color: #2563eb; margin-bottom: 5px;">🎬 内容创作者</h4>
+                            <p style="margin: 0; font-size: 14px;">需要收集创意素材，制作二次创作视频，山海云端帮您轻松获取高质量无水印素材。</p>
+                        </div>
+                        <div style="flex: 1; min-width: 200px;">
+                            <h4 style="font-size: 16px; color: #2563eb; margin-bottom: 5px;">📚 教育工作者</h4>
+                            <p style="margin: 0; font-size: 14px;">收集教学视频材料，用于课堂教学，无水印高清画质提升教学体验。</p>
+                        </div>
+                        <div style="flex: 1; min-width: 200px;">
+                            <h4 style="font-size: 16px; color: #2563eb; margin-bottom: 5px;">👨‍💻 普通用户</h4>
+                            <p style="margin: 0; font-size: 14px;">保存喜欢的视频到本地，随时离线观看，不受网络环境限制。</p>
+                        </div>
+                    </div>
+                    
+                    <p style="margin-top: 20px; font-size: 14px; color: #888;">山海云端短视频解析工具承诺永久免费服务，无广告干扰，为用户提供最佳的视频解析下载体验。支持全平台视频解析，包括但不限于抖音、快手、小红书、微博等热门平台。高速稳定的API接口，确保解析成功率，让您轻松获取喜爱的视频内容。</p>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="footer-top">
+                <div class="footer-logo">
+                    <svg class="animated-logo small" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                        <!-- 发光效果 -->
+                        <circle class="glow" cx="50" cy="50" r="32"></circle>
+                        
+                        <!-- 外部圆环 -->
+                        <circle class="outer-circle" cx="50" cy="50" r="40"></circle>
+                        
+                        <!-- 内部圆形 -->
+                        <circle class="inner-circle" cx="50" cy="50" r="30"></circle>
+                        
+                        <!-- 光线效果 -->
+                        <g class="rays">
+                            <line x1="50" y1="15" x2="50" y2="5"></line>
+                            <line x1="50" y1="95" x2="50" y2="85"></line>
+                            <line x1="15" y1="50" x2="5" y2="50"></line>
+                            <line x1="95" y1="50" x2="85" y2="50"></line>
+                            <line x1="26" y1="26" x2="19" y2="19"></line>
+                            <line x1="74" y1="74" x2="81" y2="81"></line>
+                            <line x1="26" y1="74" x2="19" y2="81"></line>
+                            <line x1="74" y1="26" x2="81" y2="19"></line>
+                        </g>
+                        
+                        <!-- 播放三角形 -->
+                        <polygon class="play-triangle" points="42,35 42,65 68,50"></polygon>
+                    </svg>
+                    <span>山海云端短视频解析</span>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>快速导航</h4>
+                        <ul>
+                            <li><a href="#"><i class="fas fa-home"></i> 首页</a></li>
+                            <li><a href="#supported"><i class="fas fa-layer-group"></i> 支持平台</a></li>
+                            <li><a href="#tutorial"><i class="fas fa-book-open"></i> 使用教程</a></li>
+                            <li><a href="#about"><i class="fas fa-info-circle"></i> 关于我们</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>支持平台</h4>
+                        <ul>
+                            <li><a href="#"><i class="fab fa-tiktok"></i> 抖音</a></li>
+                            <li><a href="#"><i class="fas fa-video"></i> 快手</a></li>
+                            <li><a href="#"><i class="fas fa-play-circle"></i> 西瓜视频</a></li>
+                            <li><a href="#"><i class="fas fa-ellipsis-h"></i> 更多平台</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>免费服务</h4>
+                        <ul>
+                            <li><a href="#"><i class="fas fa-infinity"></i> 永久免费使用</a></li>
+                            <li><a href="#"><i class="fas fa-ban"></i> 无广告干扰</a></li>
+                            <li><a href="#"><i class="fas fa-shield-alt"></i> 安全无水印</a></li>
+                            <li><a href="#"><i class="fas fa-download"></i> 批量下载支持</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p><i class="fas fa-copyright"></i> 2025 山海云端短视频解析 | 本站提供免费视频解析服务，仅供学习交流使用</p>
+                <p id="about">基于API: 山海云端短视频解析 v1.0 | <a href="#" class="footer-link">服务条款</a> | <a href="#" class="footer-link">隐私政策</a></p>
+            </div>
+        </footer>
+    </div>
+
+    <div class="toast" id="toast">
+        <div class="toast-content">
+            <i class="fas fa-check-circle toast-icon success"></i>
+            <i class="fas fa-exclamation-circle toast-icon error"></i>
+            <div class="toast-message">操作成功！</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
